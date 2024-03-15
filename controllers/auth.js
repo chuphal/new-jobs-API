@@ -1,9 +1,9 @@
 
-const register = async (res, res) => {
+const register = async (req, res) => {
     res.send("register user");
 }
 
-const login = async (res, res) => {
+const login = async (req, res) => {
     res.send("login user");
 }
 
